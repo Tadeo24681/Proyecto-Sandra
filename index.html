@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="musica" loop>
+    <source src="sonds/Comforting Memories.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const musica = document.getElementById("musica");
+
+    document.addEventListener("click", () => {
+        musica.play();
+    }, { once: true });
+</script>
+    <header>
+        <nav>
+            <div class="logo">Ambientes Virtuales<br>y Educación en Línea.</div>
+            <ul class="nav-links">
+                <li><a href="#">inicio</a></li>
+                <li><a href="#tablero-digital">tablero digital </a></li>
+                <li><a href="#contacto">formulario</a></li>
+                <li><a href="#Juegos">Juego interactivo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>tecnología y los adolescentes</h1>
+            <p>Identificar formas de utilizar la tecnología a su favor del estudiante,<br>
+                con el fin de fomentar su interés aprovechamiento escolar y disminuir su retraso académico.</p>
+           <a href="https://canva.link/j76rvrwrfovfocm" class="cta-button" target="_blank">
+            Ver presentacion Canva
+            </a>
+        </section>
+       <section id="tablero-digital">
+        <h2>TABLERO DIGITAL</h2>
+        <div class="propiedades-grid">
+            <div class="propiedades-card">
+                <img src="img/duolingo.png" alt="Duolingo">
+                <h3>Duolingo</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">Duolingo es la plataforma de aprendizaje de idiomas más popular del mundo, diseñada para hacer el estudio accesible, gratuito y divertido.
+                Mediante un enfoque de gamificación, transforma las lecciones en breves juegos diarios donde los usuarios ganan puntos, mantienen rachas y compiten en ligas.</p>
+                <button onclick="window.open('https://es.duolingo.com/', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+             <div class="propiedades-card">
+                <img src="img/classdojo.png" alt="classDojo">
+                <h3>ClassDojo</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">ClassDojo es una plataforma digital educativa diseñada para mejorar la comunicación entre docentes, estudiantes y familias.
+                    Su objetivo principal es crear una comunidad escolar unida y fomentar un ambiente de aula positivo.
+                    Los profesores la utilizan para registrar el comportamiento de los alumnos, asignando puntos por actitudes.
+                </p>
+                <button onclick="window.open('https://www.classdojo.com/es-mx/', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+            <div class="propiedades-card">
+                <img src="img/Discord.png" alt="Discord">
+                <h3>Discord</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">Discord es una plataforma de comunicación gratuita diseñada originalmente para videojugadores, pero que hoy en día conecta a todo tipo de comunidades.
+                    Funciona a través de servidores privados o públicos organizados en canales de texto, voz y video, facilitando la interacción organizada por temas.
+                </p>
+                <button onclick="window.open('https://discord.com/', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+            <div class="propiedades-card">
+                <img src="img/pear-deck.png" alt="Pear deck">
+                <h3>Pear deck</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">Pear Deck es una plataforma educativa interactiva diseñada para transformar presentaciones estáticas en experiencias de aprendizaje activo.
+                    Integrada completamente con Google Slides y Microsoft PowerPoint, permite a los docentes añadir preguntas multimedia.
+                </p>
+                <button onclick="window.open('https://www.peardeck.com/', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+            <div class="propiedades-card">
+                <img src="img/scratch.png" alt="scratch">
+                <h3>Scratch</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">Scratch es un entorno de programación visual gratuito desarrollado por el MIT, diseñado para que personas de todas las edades, especialmente niños, aprendan a programar de forma intuitiva.
+                    En lugar de escribir código complejo, los usuarios arrastran y conectan.
+                </p>
+                <button onclick="window.open('https://scratch.mit.edu/', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+            <div class="propiedades-card">
+                <img src="img/youtube.png" alt="YouTube">
+                <h3>YouTube</h3>
+                <p class="odjetivo">Descripcion general:</p>
+                <p class="descripcion">YouTube es la plataforma global líder para compartir y descubrir videos en internet. Fundada en 2005 y propiedad de Google.
+                    permite a millones de usuarios crear, subir, ver y comentar contenido audiovisual de forma gratuita. Su catálogo abarca desde tutoriales educativos, Ets...
+                    </p>
+                <button onclick="window.open('https://www.youtube.com', '_blank')">
+                    Sitio oficial
+                    </button>
+            </div>
+        </div>
+       </section>
+       <section id="contacto">
+        <h2></h2>
+
+        <div class="form-google">
+            <h2>FORMULARIO</h2>
+            <br>
+            <iframe
+            src="https://forms.gle/g5m9PZLnzvaQudpCA"
+            width="100%"
+            height="750"
+            frameborder="0"
+            maginheight="0"
+            maginwidth="0">
+            cargando formulario...
+        </iframe>
+        </div>
+       </section>
+         <section id="Juegos">
+            <h2>JUEGO INTERACTIVO</h2>
+            <br>
+            <p>actividad estructurada en la que los participantes toman decisiones y realizan acciones que influyen <br> 
+                directamente en el desarrollo y el resultado de la experiencia</p>
+           <a href="https://wordwall.net/es/resource/123319435?wwmethod=link" class="cta-button" target="_blank">
+            Jugar
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>Sandra Jaqueline Olvera maya<br>
+        María Beatriz Rodríguez<br>
+                  <br>
+    7cuatrimestre<br>
+              <br>
+Ambientes Virtuales y Educación en Línea</p>
+<script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script><script type="text/javascript">kofiwidget2.init("Tadeo24681", "#404245", "A0A71YQRI5");kofiwidget2.draw();</script> 
+    </footer>
+</body>
+</html>
